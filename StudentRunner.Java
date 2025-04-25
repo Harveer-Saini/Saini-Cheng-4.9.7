@@ -3,9 +3,9 @@ public class StudentRunner
     public static void main(String args[])
     {
         // Creating Student objects with all three attributes
-        Student s = new Student("TestName", 101, "Freshman");
-        Student t = new Student("Testname", 101, "Freshman");
-        Student r = new Student("New Name", 102, "Sophomore");
+        Student s = new Student("AlexCheng", 101, "Junior");
+        Student t = new Student("HarveerSaini", 101, "Junior");
+        Student r = new Student("JoshuaWu", 102, "Sophomore");
 
         // Testing toString method by printing each student's details
         System.out.println(s.toString());
